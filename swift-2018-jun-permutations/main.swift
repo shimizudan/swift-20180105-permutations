@@ -32,9 +32,9 @@ func permutations( a:[Int]) -> [[Int]] {
 
 
 //例
-permutations(a: [1,2,3,4]).count
+permutations(a: [1,2,3]).count
 
-for v in permutations(a: [1,2,3,4]){
+for v in permutations(a: [1,2,3]){
     print(v)
 }
 
